@@ -1,5 +1,6 @@
 # InjecaoDeDependencia
 📌 Você sabe como a Injeção de dependência funciona na prática? Caso a respostar for não, este projeto te ajudará!
+
 Vamos supor que você esteja desenvolvendo um aplicativo que precisa se conectar a um banco de dados. 
 Ao invés de criar uma classe que faça a conexão diretamente, você cria uma interface que define os métodos que essa classe deve ter, como "Cadastrar", "Deletar" e "Editar".
 Você implementa essa interface em uma classe concreta, por exemplo um repository que irá e realiza a conexão com um banco de dados específico.
